@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+  background: url(../images/Picture1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/*body {
+  margin-top: 100px;
+  font-family: 'segoe ui';
+  background: url(../images/Picture1.jpg);
+  background-size: cover;
+}*/
+body {
+  padding-top: 67px; /* This should be equal to the height of your header */
+}
+
+.sticky {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  margin-bottom: 50px;
+}
+.nav {
+  background: linear-gradient(to right, red 50%, blue 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  color: #fff;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  z-index: 20;
+}
+.nav .logo {
+  font-size: 24px;
+  padding: 20px;
+  margin-left: 25px;
+}
+.nav .logo a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav ul {
+  margin: 0;
+  display: flex;
+}
+ul li {
+  padding: 20px;
+  list-style: none;
+}
+ul li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cover {
+  background-image: url(../images/hog.jpg);
+  height: 90vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.cover img {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.about {
+  background-color: #e8e8e881;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 50px 90px 50px 100px;
+  display: flex;
+  flex-direction: row;
+}
+.about h2 {
+  font-family: "Dancing Script";
+  font-size: 40px;
+  color: rgb(7, 7, 7);
+  margin-bottom: 20px;
+
+  font-weight: bolder;
+}
+
+.about p {
+  margin-right: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.about img {
+  width: 40%;
+  margin-left: 50px;
+}
+
+.hat {
+  margin: 100px 0;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(245, 140, 3);
+}
+.burger {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 0px;
+  height: 100%;
+}
+.burger img {
+  width: 40%;
+  transition: 0.5s all ease-in-out;
+  cursor: pointer;
+}
+.burger img:hover {
+  transform: scale(1.1);
+}
+
+.slyth {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 4;
+}
+.raven {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-row-end: 4;
+  grid-column-end: 3;
+}
+.huff {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-row-end: 4;
+  grid-column-end: 4;
+}
+
+footer {
+  background-color: #e8e8e88f;
+  padding: 5px;
+  height: 100px;
+  text-align: center;
+  color: rgb(61, 49, 26);
+  font-size: 12px;
+  margin-top: 150px;
+}
+
+/*contact*/
+#owl-img {
+  display: block;
+  margin: 50px auto;
+}
+.contact h2 {
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  width: 40%;
+  margin: 50px auto;
+}
+.contact a {
+  text-decoration: none;
+  color: grey;
+}
+.contact a:hover {
+  color: rgb(202, 161, 240);
+}

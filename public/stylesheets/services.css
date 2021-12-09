@@ -1,0 +1,69 @@
+.blog-container {
+  background: #fff;
+  border-radius: 5px;
+  font-family: "adelle-sans", sans-serif;
+  font-weight: 100;
+  margin: 48px auto;
+  width: 20rem;
+}
+@media screen and (min-width: 480px) {
+    .blog-container {
+    width: 28rem;
+}
+}
+  @media screen and (min-width: 767px) {
+    .blog-container {
+    width: 40rem;
+  }
+}
+  @media screen and (min-width: 959px) {
+    .blog-container {
+    width: 50rem;
+}
+}
+
+ #house-cover  {
+  position: relative; 
+  border-radius: 5px 5px 0 0;
+  height: 360px;
+  width: 800px;
+  box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+  }
+
+  #author-icon {
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: .5rem;
+  top: 8px;
+  width: 10%;
+  }
+  .down-part {
+    padding: 20px;
+  }
+.author {
+  display: flex;
+  
+}
+.author > div {
+  line-height: 50%;
+}
+.author h5 {
+  color: grey;
+  transition: .25s ease;
+}
+
+.author h5:hover {
+  border-color: #ff4d4d;
+  color: #ff4d4d;
+}
+
+a {
+  text-decoration: none;
+
+}
+p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
